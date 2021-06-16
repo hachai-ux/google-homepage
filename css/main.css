@@ -1,0 +1,46 @@
+body {
+    text-align: center;
+  
+}
+
+li {
+    display: inline;
+  }
+
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+  }
+
+.center {
+display:block;
+margin:auto;
+}
+
+.align-horizontally {
+    display: flex;
+}
+
+#main-elements-center{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+#google-suche, #auf-gut-glueck  {
+display:inline-block;
+margin:auto;
+}
+
+.float-right {
+    float:right;
+}
+.float-left {
+    float:left;
+}
+
